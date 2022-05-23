@@ -42,6 +42,7 @@ nav {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .item {
@@ -167,4 +168,155 @@ main {
 .right-slide {
     width: fit-content;
     height: fit-content;
+}
+
+.main__catalog-upper {
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.catalog-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 250px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: #343434;
+}
+
+.compulite:focus {
+    color: #005BC1;
+    outline: none;
+    padding-bottom: 5px;
+    border-bottom: 3px #005BC1 solid;
+    text-transform: capitalize;
+}
+
+.robe:focus {
+    color: #005BC1;
+    outline: none;
+    padding-bottom: 5px;
+    border-bottom: 3px #005BC1 solid;
+    text-transform: capitalize;
+}
+
+.main__catalog-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.main__catalog-first-image {
+    width: fit-content;
+    height: fit-content;
+}
+
+.main__catalog-second-image {
+    width: fit-content;
+    height: fit-content;
+}
+
+.main__catalog-third-image {
+    width: fit-content;
+    height: fit-content;
+}
+
+.main__rent-upper {
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.main__rent-content {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.main__about-rent {
+    height: 175px;
+    width: 350px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(52, 52, 52, 0.7);
+}
+
+.main__new-product-upper {
+    display: flex;
+    width: 620px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.main__rent-new-product {
+    width: 665px;
+    height: 395px;
+    border: rgba(0, 91, 193, 1) 4px solid;
+}
+
+
+.new-product__upper-text {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #343434;
+}
+
+.main__rent-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main__rent-about-img {
+    width: fit-content;
+    height: fit-content;
+}
+
+.main__rent-about-text {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #343434;
+}
+
+.main__rent-about-block {
+    height: 206px;
+}
+
+.main__rent-about-spec {
+    width: 270px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(52, 52, 52, 0.6);
 }
