@@ -115,3 +115,56 @@ main {
     background-color: rgba(255, 255, 255, 0);
     border: white 2px solid;
 }
+
+.main__slider-upper {
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    margin-top: 146px;
+}
+
+.main__text-upper {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    color: #343434;
+    margin-left: 40px;
+}
+
+.main__buttons-upper {
+    display: flex;
+    margin-left: 655px;
+}
+
+.first-button {
+    width: 55px;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0);
+    border: rgba(255, 255, 255, 0);
+}
+
+.second-button {
+    width: 55px;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0);
+    border: rgba(255, 255, 255, 0);
+}
+
+.main__slides {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.left-slide {
+    width: fit-content;
+    height: fit-content;
+}
+
+.right-slide {
+    width: fit-content;
+    height: fit-content;
+}
