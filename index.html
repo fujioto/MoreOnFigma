@@ -14,11 +14,11 @@
         </div>
         <nav class="header__nav">
             <ul class="header__menu">
-                <li class="menu-item"><a href="#" class="item">О компании</a></li>
-                <li class="menu-item"><a href="#" class="item">Портфолио</a></li>
-                <li class="menu-item"><a href="#" class="item">Каталог</a></li>
-                <li class="menu-item"><a href="#" class="item">Сервис</a></li>
-                <li class="menu-item"><a href="#" class="item">Контакты</a></li>
+                <li class="menu-item"><a href="#no_scroll" class="item">О компании</a></li>
+                <li class="menu-item"><a href="#no_scroll" class="item">Портфолио</a></li>
+                <li class="menu-item"><a href="#no_scroll" class="item">Каталог</a></li>
+                <li class="menu-item"><a href="#no_scroll" class="item">Сервис</a></li>
+                <li class="menu-item"><a href="#no_scroll" class="item">Контакты</a></li>
             </ul>
         </nav>
     </header>
@@ -29,7 +29,7 @@
                 в Петербурге</div>
             <div class="main__subtitle">Продажа, аренда светотехнического оборудования.
                 Оформление официальных мероприятий под ключ.</div>
-            <form action="#">
+            <form action="#no_scroll">
                 <button class="main__move">ПЕРЕЙТИ</button>
             </form>
         </div>
@@ -49,12 +49,28 @@
                 </div>
             </div>
             <div class="main__slides">
-                <div class="left-slide">
-                    <img src="images/left-slide.png" alt="" class="slide">
-                </div>
-                <div class="right-slide">
-                    <img src="images/right-slide.png" alt="" class="slide">
-                </div>
+                <a href="#no_scroll">
+                    <div class="left-slide">
+                        <div class="slide-about">
+                            <div class="slide-text">
+                                <p class="slide-title">ССК “ОЛИМП”</p>
+                                <p class="slide-subtitle">Световое оформление <br> форума “Шубы-2019”</p>
+                            </div>    
+                        </div>
+                        <img src="images/first-slide.png" alt="" width="540px" height="400px" class="slide">
+                    </div>
+                </a>
+                <a href="#no_scroll">
+                    <div class="right-slide">
+                        <div class="slide-about">
+                            <div class="slide-text">
+                                <p class="slide-title">ССК “ОЛИМП”</p>
+                                <p class="slide-subtitle">Световое оформление <br> форума “Шубы-2019”</p>
+                            </div>    
+                        </div>
+                        <img src="images/second-slide.png" alt="" width="540px" height="400px" class="slide">
+                    </div>
+                </a>
             </div>
         </div>
         <div class="main__catalog">
@@ -66,19 +82,24 @@
             </div>
             <div class="main__catalog-menu">
                 <ul class="catalog-menu">
-                    <li class="catalog-menu-item"><a href="#" class="robe" autofocus>ROBE</a></li>
-                    <li class="catalog-menu-item"><a href="#" class="compulite">COMPULITE</a></li>
+                    <li class="catalog-menu-item"><a href="#no_scroll" class="robe" autofocus>ROBE</a></li>
+                    <li class="catalog-menu-item"><a href="#no_scroll" class="compulite">COMPULITE</a></li>
                 </ul>
             </div>
             <div class="main__catalog-images">
                 <div class="main__catalog-first-image">
-                    <img src="images/first-image.png" alt="">
+                    <div class="catalog-image-panel">
+                        <div class="catalog-image-text-wrap">
+                            <p class="catalog-iamge-text"></p>
+                        </div>
+                    </div>
+                    <img src="images/first-image.png" width="350px" height="300px" alt="">
                 </div>
                 <div class="main__catalog-second-image">
-                    <img src="images/second-image.png" alt="">
+                    <img src="images/second-image.png" width="350px" height="300px" alt="">
                 </div>
                 <div class="main__catalog-third-image">
-                    <img src="images/third-image.png" alt="">
+                    <img src="images/third-image.png" width="350px" height="300px" alt="">
                 </div>
             </div>
         </div>
@@ -110,14 +131,56 @@
                         <div class="main__rent-about-block">
                             <div class="main__rent-about-text">ROBE ROBIN PARFECT 100</div>
                             <ul class="main__rent-about-spec">
-                                <li class="spec-item"><a href="">Источник света 12 светодиодов RGBW по 15 Вт каждый</a></li>
+                                <li class="spec-item">Источник света 12 светодиодов RGBW по 15 Вт каждый</li>
                                 <br>
-                                <li class="spec-item"><a href="">Угол раскрытия 7°</a></li>
+                                <li class="spec-item">Угол раскрытия 7°</li>
                                 <br>
-                                <li class="spec-item"><a href="">В комплекте рассеивающая линза 40°</a></li>
+                                <li class="spec-item">В комплекте рассеивающая линза 40°</li>
                                 <br>
-                                <li class="spec-item"><a href="">Потребляемая мощность 200 Вт</a></li>
+                                <li class="spec-item">Потребляемая мощность 200 Вт</li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__news">
+            <div class="main__news-upper">
+                <div class="main__decor-upper">
+                    <img src="images/decor-heading.svg" alt="">
+                </div>
+                <div class="main__text-upper">НОВОСТИ</div>
+                <form action="#no_scroll">
+                    <button class="main__news-all">ВСЕ НОВОСТИ</button>
+                </form>
+            </div>
+            <div class="main__news-cards">
+                <div class="main__news-big-card">
+                    <div class="main__news-big-img"><img src="images/news-big-pic.png" width="255px" height="242px" alt=""></div>
+                    <div class="main__news-big-about">
+                        <div class="main__news-big-title-wrap">
+                            <div class="main__news-title">СЕМИНАР MILOS</div>
+                            <div class="main__news-date">27.01.2019</div>
+                        </div>
+                        <div class="main__news-subtitle">Наши сотрудники прошли последний семинар от компании Milos. <br> Они получили новый объем знаний, который позволит нашей компании заниматься оборудованием не только мероприятий, но производственных помещений.</div>
+                        <div class="main__news-big-full"><a href="#no_scroll">Читать полностью...</a></div>
+                    </div>
+                </div>
+                <div class="main__news-small-cards">
+                    <div class="main__news-small-card">
+                        <div class="main__news-title">Выставка Prolight+Sound NAMM Russia 2016</div>
+                        <div class="main__news-ssubtitle">30 контрактов, тысячи восторженных посетителей...</div>
+                        <div class="main__news-small-img">
+                            <img src="images/news-small-pic1.png" width="128px" height="115px" alt="">
+                            <div class="main__news-datee">27.01.2019</div>
+                        </div>
+                    </div>
+                    <div class="main__news-small-card">
+                        <div class="main__news-title">Семинар <br> Robe</div>
+                        <div class="main__news-ssubtitle">30 января 2017 года наши сотрудники побывали в Берлине..</div>
+                        <div class="main__news-small-img">
+                            <img src="images/news-small-pic2.png" width="128px" height="115px" alt="">
+                            <div class="main__news-datee">27.01.2019</div>
                         </div>
                     </div>
                 </div>
